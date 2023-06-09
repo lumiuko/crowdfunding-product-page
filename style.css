@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.unavailable {
+  opacity: 0.5;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.menu-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.overlay-hidden,
+.modal-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal-hidden {
+  transform: scale(0.9);
+}
+
+.bookmarked {
+  color: #147a73;
+  background-color: #f3f8f8;
+}
+
+.bookmarked circle {
+  fill: #147a73;
+}
+
+.bookmarked path {
+  fill: white;
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+.plan-bottom {
+  transition: max-height 0.3s;
+}
+
+.plan.selected {
+  border-color: #3cb3ab;
+}
+
+.modal {
+  width: calc(100% - 1.5rem * 2);
+}
+
+.unavailable {
+  opacity: 0.5;
+}
+
+.validation-error {
+  border-color: #ff8c8c;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
