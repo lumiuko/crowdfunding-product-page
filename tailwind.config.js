@@ -16,6 +16,9 @@ export default {
         'modal-overlay': 'rgb(0 0 0 / 50%)'
       }
     },
+    fontFamily: {
+      sans: ['Commissioner', 'sans-serif']
+    },
     backgroundImage: {
       'hero-mobile': 'url("/image-hero-mobile.jpg")',
       'hero-desktop': 'url("/image-hero-desktop.jpg")',
