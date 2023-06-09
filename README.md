@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://i.imgur.com/y062wym.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/crowdfunding-product-page-using-tailwind-css-X7hpL-CEsA](https://www.frontendmentor.io/solutions/crowdfunding-product-page-using-tailwind-css-X7hpL-CEsA)
+- Live Site URL: [https://crowdfunding-tailwind.netlify.app/](https://crowdfunding-tailwind.netlify.app/)
 
 ## My process
 
