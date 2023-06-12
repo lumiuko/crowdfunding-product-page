@@ -68,7 +68,8 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type='number'] {
-  -moz-appearance: textfield;
+.plan-bottom input[type='number'] {
   appearance: none;
+  -moz-appearance: textfield;
+  max-width: 50px;
 }
