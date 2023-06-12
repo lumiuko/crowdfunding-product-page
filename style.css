@@ -68,6 +68,10 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+.plan label {
+  scroll-margin: 4rem;
+}
+
 .plan-bottom input[type='number'] {
   appearance: none;
   -moz-appearance: textfield;

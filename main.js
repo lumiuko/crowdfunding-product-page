@@ -109,16 +109,14 @@ function handleInputChange(event) {
   })
 
   const plan = event.target.closest('.plan')
+  const planLabel = plan.querySelector('label')
   const planBottom = plan.querySelector('.plan-bottom')
   plan.classList.add('selected')
   planBottom.style.maxHeight = `${planBottom.scrollHeight}px`
 
-  const { left, top } = plan.getBoundingClientRect()
-  modal.scrollTo({
-    left,
-    top: top - plan.clientHeight,
-    behavior: 'smooth'
-  })
+  setTimeout(() => {
+    planLabel.scrollIntoView({ behavior: 'smooth' })
+  }, 500)
 }
 
 function handleDocumentClick(event) {
