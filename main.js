@@ -112,6 +112,13 @@ function handleInputChange(event) {
   const planBottom = plan.querySelector('.plan-bottom')
   plan.classList.add('selected')
   planBottom.style.maxHeight = `${planBottom.scrollHeight}px`
+
+  const { left, top } = plan.getBoundingClientRect()
+  modal.scrollTo({
+    left,
+    top: top - plan.clientHeight,
+    behavior: 'smooth'
+  })
 }
 
 function handleDocumentClick(event) {
